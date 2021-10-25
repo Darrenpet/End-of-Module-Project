@@ -17,5 +17,11 @@ body {
 }
 
 .navbar {
-  background-color: transparent;
+  background-color: #b3baeb;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
 }
