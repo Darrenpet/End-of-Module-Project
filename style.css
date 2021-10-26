@@ -33,3 +33,16 @@ body {
   background-position: 50% 50%;
   box-sizing: border-box;
 }
+
+.section-slide--section3 {
+  background-color: #c8ccee;
+  height: auto;
+}
+
+.row-col-sm-12 {
+  place-content: center;
+}
+
+.section-slide--section4 {
+  background-color: #c8ccee;
+}
