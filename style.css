@@ -34,9 +34,14 @@ body {
   box-sizing: border-box;
 }
 
+.section-slide--section2 {
+  height: 100vh;
+  background-color: white;
+}
+
 .section-slide--section3 {
+  height: 100vh;
   background-color: #c8ccee;
-  height: auto;
 }
 
 .row-col-sm-12 {
@@ -44,5 +49,21 @@ body {
 }
 
 .section-slide--section4 {
+  height: auto;
+  background-color: white;
+}
+
+.section-slide--section5 {
+  width: 100vh;
   background-color: #c8ccee;
+}
+
+.section-slide--section5 .card-img-top {
+  width: 600px;
+  height: 600px;
+}
+
+.section-slide--section6 {
+  height: 100vh;
+  background-color: white;
 }
