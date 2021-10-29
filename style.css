@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font: normal 75% Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #caf0f8;
+  background-color: whitesmoke;
 }
 
 #particles-js {
@@ -17,6 +17,7 @@ body {
 
 .navbar {
   background-color: #caf0f8;
+  width: 100%;
 }
 
 .offcanvas {
@@ -44,6 +45,7 @@ body {
 
 .section-slide .home .container {
   height: 100vh;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
