@@ -100,12 +100,6 @@ body {
   background-color: #caf0f8;
 }
 
-.parent {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-
 .progress {
   background-color: black;
 }
