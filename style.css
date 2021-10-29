@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font: normal 75% Arial, Helvetica, sans-serif;
+  font: normal 75% Verdana, Geneva, Tahoma, sans-serif;
   background-color: #caf0f8;
 }
 
@@ -16,6 +16,10 @@ body {
 }
 
 .navbar {
+  background-color: #caf0f8;
+}
+
+.offcanvas {
   background-color: #caf0f8;
 }
 
@@ -181,9 +185,6 @@ time {
   margin-bottom: 8px;
 }
 
-/* EFFECTS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .timeline ul li::after {
   transition: background 0.5s ease-in-out;
 }
@@ -212,16 +213,12 @@ time {
   opacity: 1;
 }
 
-/* GENERAL MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 @media screen and (max-width: 900px) {
   .timeline ul li div {
     width: 250px;
   }
   .timeline ul li:nth-child(even) div {
     left: -289px;
-    /*250+45-6*/
   }
 }
 
